@@ -1,3 +1,4 @@
+// JavaScript is dynamically typed language 
 //The datatypes are categorieses into 2 part on the basis of mempry selection and update 
 //  Primitive - call by value 
 
