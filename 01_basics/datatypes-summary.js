@@ -37,3 +37,22 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//**********************************
+
+//Stack (primitive) - copy of the variable , Heap(NP) - reference of the original variable 
+let myt = "SAHEB"
+let ano = myt 
+ano = "Hi"
+
+console.log(myt); //not changed 
+console .log(ano);
+
+let obj {
+   name : "SAHEB" ,
+       new : "Sunanda" , 
+}
+
+let obj.name= "SLS" ;
+console.log(obj.name) ; 
+
