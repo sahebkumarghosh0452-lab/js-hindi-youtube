@@ -1,20 +1,21 @@
-//  Primitive
+//The datatypes are categorieses into 2 part on the basis of mempry selection and update 
+//  Primitive - call by value 
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
-const scoreValue = 100.3
+const scoreValue = 100.3 //no special decimal datatypes 
 
 const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
+const outsideTemp = null // object is the datatype 
+let userEmail; // if not initialized then it is stored as undefined 
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+console.log(id === anotherId); // false 
 
-// const bigNumber = 3456543576654356754n
+// const bigNumber = 3456543576654356754n - n used to make it big int 
 
 
 
@@ -23,7 +24,7 @@ console.log(id === anotherId);
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+let myObj = { //key value pairs are stores as object 
     name: "hitesh",
     age: 22,
 }
